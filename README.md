@@ -42,8 +42,11 @@ The project performs:
 ## Repository Structure
 
 /notebooks/ → Jupyter notebooks for EDA and analysis
+
 /scripts/ → Python scripts for prediction models (Objectives 1, 2, 3 and 4 for each type of data transformation with One-hot encoding and Embedding-based encoding )
+
 /README.md → Project documentation
+
 /requirements.txt → Python dependencie
 
 
@@ -66,21 +69,20 @@ The project performs:
 ## How to Run
 
 1. Clone the repository:
-
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+    git clone https://github.com/YOUR_USERNAME/latam-price-prediction.git
 
 2. Install required libraries:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 3. Run notebooks (example):
 
-jupyter notebook notebooks/data_exploration_initial.ipynb
-jupyter notebook notebooks/latam_price_analysis.ipynb
+    jupyter notebook notebooks/data_exploration_initial.ipynb
+    jupyter notebook notebooks/latam_price_analysis.ipynb
 
 
 4. Run prediction scripts (example):
 
-python scripts/prediction_objective_1_multi_E.py
-python scripts/latam_price_prediction.py
+    python scripts/prediction_objective_1_multi_E.py
+    python scripts/latam_price_prediction.py
