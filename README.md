@@ -1,5 +1,4 @@
 # latam-price-prediction
-# Latam Price Prediction
 ## Predictive Airfare & Multi-Objective Analysis Based on Machine Learning
 
 This project focuses on **predicting airline ticket prices for domestic flights in Peru (Latam Airlines)**, helping users identify the **optimal time to purchase tickets** for cost savings, comfort, and travel efficiency. The repository implements multi-objective prediction models and comparative analysis of classical and neural network models.
@@ -19,7 +18,7 @@ The project performs:
    - **Embedding-based encoding**  
 
 3. **Predictive Modeling**  
-   - **Eight models trained:** 4 classical (e.g., Decision Tree, Random Forest, KNN, XGBoost) and 4 neural network models (e.g., LSTM, GRU, TCN, Transformer).  
+   - **Eight models trained:** 4 classical (Decision Tree, Random Forest, KNN- K Nearest Neighbors, XGBoost) and 4 neural network models (LSTM- Long Short-Term Memory, GRU-Gated Recurrent Unit, TCN-Temporal Convolutional Networks, Transformer).  
    - Hyperparameter optimization using **Optuna**.  
 
 4. **Evaluation Metrics**  
@@ -43,7 +42,7 @@ The project performs:
 
 /notebooks/ → Jupyter notebooks for EDA and analysis
 
-/scripts/ → Python scripts for prediction models (Objectives 1, 2, 3 and 4 for each type of data transformation with One-hot encoding and Embedding-based encoding )
+/scripts/ → Python scripts for prediction models (Objectives 1, 2, 3 and 4 for each type of data transformation with One-hot encoding and Embedding-based encoding)
 
 /README.md → Project documentation
 
@@ -76,13 +75,13 @@ The project performs:
     pip install -r requirements.txt
 
 
-3. Run notebooks (example):
+3. Run notebooks:
 
     jupyter notebook notebooks/data_exploration_initial.ipynb
-    jupyter notebook notebooks/latam_price_analysis.ipynb
 
 
-4. Run prediction scripts (example):
+4. Run prediction scripts:
 
     python scripts/prediction_objective_1_multi_E.py
-    python scripts/latam_price_prediction.py
+    python scripts/prediction_objective_2_3_E.py
+    python scripts/training_all.py
